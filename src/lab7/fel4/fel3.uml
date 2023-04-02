@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab7.fel3</OriginalElement>
+  <nodes>
+    <node x="127.49999999999999" y="696.0">lab7.fel3.Main</node>
+    <node x="74.66666666666664" y="0.0">lab7.fel3.Weekday</node>
+    <node x="0.0" y="522.0">lab7.fel3.WeeklyCalendar</node>
+    <node x="67.16666666666664" y="326.0">lab7.fel3.WeeklyEntry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab7.fel3.Main" target="lab7.fel3.WeeklyCalendar" relationship="CREATE">
+      <point x="-37.5" y="-38.5" />
+      <point x="165.0" y="670.0" />
+      <point x="131.5" y="670.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="lab7.fel3.Main" target="lab7.fel3.WeeklyEntry" relationship="DEPENDENCY">
+      <point x="37.5" y="-38.5" />
+      <point x="240.0" y="670.0" />
+      <point x="273.5" y="670.0" />
+      <point x="273.5" y="496.0" />
+      <point x="227.99999999999994" y="496.0" />
+      <point x="64.33333333333331" y="72.0" />
+    </edge>
+    <edge source="lab7.fel3.WeeklyEntry" target="lab7.fel3.Weekday" relationship="DEPENDENCY">
+      <point x="-48.25" y="-72.0" />
+      <point x="115.41666666666664" y="301.0" />
+      <point x="119.16666666666664" y="301.0" />
+      <point x="-44.5" y="138.0" />
+    </edge>
+    <edge source="lab7.fel3.WeeklyCalendar" target="lab7.fel3.WeeklyEntry" relationship="TO_MANY">
+      <point x="-65.75" y="-61.0" />
+      <point x="65.75" y="496.0" />
+      <point x="99.33333333333333" y="496.0" />
+      <point x="-64.33333333333331" y="72.0" />
+    </edge>
+    <edge source="lab7.fel3.WeeklyEntry" target="lab7.fel3.Weekday" relationship="TO_ONE">
+      <point x="48.25" y="-72.0" />
+      <point x="211.91666666666663" y="301.0" />
+      <point x="208.16666666666663" y="301.0" />
+      <point x="44.5" y="138.0" />
+    </edge>
+    <edge source="lab7.fel3.WeeklyCalendar" target="lab7.fel3.WeeklyEntry" relationship="CREATE">
+      <point x="65.75" y="-61.0" />
+      <point x="197.25" y="496.0" />
+      <point x="163.66666666666663" y="496.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="139.0" y="386.5" />
+  <SelectedNodes>
+    <node>lab7.fel3.WeeklyCalendar</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
